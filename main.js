@@ -1,6 +1,6 @@
 import './style.css'
-import { plainText as osmInput } from './data/tempe_split.osm';
+import { plainText as geojsonInput } from './data/tempe_split.geojson';
 
-console.log(osmInput);
+console.log(geojsonInput);
 
-document.querySelector('#app').innerHTML = `osmInput is ${osmInput.length}`;
+document.querySelector('#app').innerHTML = `${geojsonInput.length}`;
