@@ -1,3 +1,6 @@
 import './style.css'
+import { plainText as osmInput } from './data/tempe_split.osm';
 
-document.querySelector('#app').innerHTML = `Sup`;
+console.log(osmInput);
+
+document.querySelector('#app').innerHTML = `osmInput is ${osmInput.length}`;
