@@ -10,6 +10,11 @@
   },
   "devDependencies": {
     "vite": "^4.0.0",
-    "vite-plugin-plain-text": "^1.2.1"
+    "vite-plugin-plain-text": "^1.2.1",
+    "vite-plugin-top-level-await": "^1.2.2",
+    "vite-plugin-wasm": "^3.1.0"
+  },
+  "dependencies": {
+    "osm2streets-js": "^0.1.0"
   }
 }
